@@ -22,8 +22,8 @@ async def Me(message: types.Message):
 async def sendwiki(message: types.Message):
     try:
 
-        one = GoogleTranslator(source='uz', target='en').translate(message.text)
-        respond = wikipedia.summary(one)
+     
+        respond = wikipedia.summary(message.text)
         await message.answer(GoogleTranslator(source='en', target='uz').translate(respond))
     except:
         await message.answer("Bu mavzuga oid maqola topilmadi")
