@@ -3,7 +3,7 @@ import wikipedia
 from deep_translator import GoogleTranslator
 
 
-bot = Bot(token='6074500148:AAGvYEZZGZZWWbCRjBpxVJ82YFBu4N1zQRc')
+bot = Bot(token='6050015316:AAEYVIIvWrVoxMn1EtgaKNI0x3oswp6Kugs')
 dp = Dispatcher(bot)
 wikipedia.set_lang('en')
 
